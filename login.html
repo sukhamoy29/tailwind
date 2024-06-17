@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://kit.fontawesome.com/2ea9dd8432.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <div class="bg-gradient-to-b from-purple-100 via-orange-200  h-screen flex flex-col items-center justify-center "> 
+        
+        
+        <div class="bg-gradient-to-r from-slate-300 to-slate-500 p-8 rounded-md shadow-md ">
+        
+            <h2 class="text-2xl font-bold mb-4">Log in to your account</h2>
+          <div class="flex flex-col gap-4 p-6 border bg-slate-100">
+            <input type="email" placeholder="you@domain.com" class="border rounded-md px-4 py-2 focus:outline-none focus:border-blue-500">
+            <input type="password" placeholder="Password" class="border rounded-md px-4 py-2 focus:outline-none focus:border-blue-500">
+            <button class="bg-blue-500 text-white px-8 py-2 rounded-md hover:bg-blue-600"><a href="index.html">Log in</a></button>
+            <a href="#" class="text-blue-500 hover:underline">Forgot password</a>
+          </div>
+      
+          <div class="mt-6 flex flex-col gap-2 p-2 bg-slate-100 ">
+                <button class="bg-blue-400 px-8 py-2 rounded-md flex items-center gap-2 hover:bg-blue-500 ">
+                <img src="assets/google.svg" alt="Google logo" class="h-5 w-5">
+                <span class="text-white">Login With Google</span>
+                </button>
+                <button class="bg-gray-600 px-8 py-2 rounded-md flex items-center gap-2 hover:bg-gray-700">
+                <img src="assets/github.svg" alt="Github logo" class="h-5 w-5rounded-2xl">
+                <span class="text-white">Login With Github</span>
+                </button>
+                <button class="bg-blue-400 text-white px-8 py-2 rounded-md hover:bg-blue-500 flex items-center gap-2">
+                <img src="assets/x.svg" alt="">
+                <span class="text-white">Login With X</span>
+                </button>
+          </div>
+         
+        </div>
+        <p class="mt-4 text-center text-gray-500">Don't have an account? <a href="#" class="text-blue-500 hover:underline">Sign up.</a></p>
+      </div>
+      
+</body>
+</html>
